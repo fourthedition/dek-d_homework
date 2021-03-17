@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Dek-D | Homework Front-End Developer</title>
+  </head>
+  <body>
+      
+    <div class="container">
+        <h1>Front-End Developer</h1>
+        <h4>จงสร้างระบบ Slider โดยใช้ JavaScript, HTML, CSS ให้ได้ตามรูปข้างล่าง โดยมีเงื่อนไขดังนี้</h4>
+        <p>ดูผลงานเพิ่มเติมได้ที่ : <a href="https://sirawit-portfolio.web.app">Portfolio (ReactJS)</a></p>
+        <hr/>
+        <div class="slider">
+            <img src="images/1.jpg" style="width: 100%"/>
+          </div>
+          <div class="slider">
+            <img src="images/2.jpg" style="width: 100%"/>
+          </div>
+          <div class="slider">
+            <img src="images/3.png" style="width: 100%"/>
+          </div>
+          <br/>
+          <a class="prev" onclick="plusSlides(-1)"><img src="images/left.png"/></a>
+          <a class="next" onclick="plusSlides(1)"><img src="images/right.png"/></a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div> 
+        <ul>
+            <li>สามารถกดปุ่มซ้ายขวาเพื่อเลื่อน Slider ไปตามทิศทางที่ต้องการได้</li>
+            <li>สามารถกดที่จุดด้านล่างเพื่อไปหน้า Slider ที่ต้องการได้</li>
+            <li>แสดงหน้าที่ Slider Active เพียงหน้าเดียว หรือแสดงเหลื่อมแบบตามรูปก็ได้</li>
+            <li>ต้องเขียน JavaScript ขึ้นมาเองโดยไม่ได้ใช้ Plugin สำเร็จรูป</li>
+            <li>โค้ดทั้งหมดอัปขึ้น GitHub ของตัวเอง และเปิดเป็น public และส่งเมลการสมัครมาที่ intern@dek-d.com</li>
+        </ul>
+      
+      <script src="script.js"></script>
+  </body>
+</html>
+
