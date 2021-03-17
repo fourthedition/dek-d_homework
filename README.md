@@ -1,4 +1,5 @@
 # Front-End Developer — Intern
+Link : https://fourthedition.github.io/dek-d_homework/
 
 จงสร้างระบบ Slider โดยใช้ JavaScript, HTML, CSS ให้ได้ตามรูปข้างล่าง โดยมีเงื่อนไขดังนี้
 - สามารถกดปุ่มซ้ายขวาเพื่อเลื่อน Slider ไปตามทิศทางที่ต้องการได้
